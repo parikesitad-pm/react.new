@@ -1,0 +1,27 @@
+.newsWrapper {
+  padding-top: 40px;
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+
+  .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #313131;
+  }
+
+  .searchBox {
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contentWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
